@@ -1,0 +1,1 @@
+function fn(r){for(var n=[],o=0;o<r.length;o++)-1===n.indexOf(r[o])&&n.push(r[o]);return n}function setTo(r){for(var n=[],o=r.length-1;o>=0;o--)-1===n.indexOf(r[o])&&n.unshift(r[o]);return n}var arr=[1,5,1,2,4,3,1,2];console.log(fn(arr));var arrL=[9,8,9,7,9,6,9,5];console.log(setTo(arrL));
